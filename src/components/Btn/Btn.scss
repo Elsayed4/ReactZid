@@ -1,0 +1,14 @@
+.myBtn {
+  a {
+    background-color: var(--main-color);
+    padding-block: 0.875rem;
+    padding-inline: 4.6875rem;
+    border-radius: 10px;
+    color: var(--second-color);
+    font-weight: 700;
+    font-size: 1.125rem;
+  }
+  a:hover {
+    color: var(--second-color);
+  }
+}

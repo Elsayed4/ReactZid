@@ -1,0 +1,53 @@
+.Applicatios {
+  background-color: #fafafc;
+  margin-block-start: 6.875rem;
+  .Categories {
+    .Categories-cot {
+      height: 31.25rem;
+      max-width: 950px;
+      background-image: url("../../assets/images/Dot-Pattern.png"),
+        url("../../assets/images/yellow-ellipse.png");
+      background-position: top left, center right;
+      background-repeat: no-repeat;
+      background-size: 10rem, 10rem;
+      .Categories-imgConatiners {
+        max-width: 558px;
+        max-height: 549.2896px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        img {
+          max-width: 494px;
+          display: block;
+          border-radius: 24px;
+        }
+      }
+    }
+  }
+
+  .Applicatios-data {
+    padding: 3.125rem 0;
+    h3 {
+      color: var(--main-color);
+      font-weight: 700;
+      font-size: 24px;
+    }
+    ul {
+      li {
+        display: block;
+        margin-inline-end: 48px;
+        display: flex;
+        align-items: baseline;
+        img {
+          background-color: #fff;
+          padding: 0.625rem;
+          border-radius: 50%;
+          box-shadow: 0.125rem 0.125rem 0.125rem #e3c8ec;
+          width: 3.125rem;
+          height: 3.125rem;
+        }
+      }
+    }
+  }
+}

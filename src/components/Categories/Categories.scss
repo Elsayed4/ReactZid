@@ -1,0 +1,23 @@
+.Categories {
+  .Categories-cot {
+    height: 500px;
+    max-width: 59.375rem;
+    background-image: url("../../assets/images/Dot-Pattern.png"),
+      url("../../assets/images/yellow-ellipse.png");
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    .Categories-imgConatiners {
+      max-width: 52.875rem;
+      max-height: 34.3306rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      img {
+        max-width: 52.875rem;
+        display: block;
+        border-radius: 1.5rem;
+      }
+    }
+  }
+}
